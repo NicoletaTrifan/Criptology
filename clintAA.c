@@ -17,7 +17,7 @@ extern int errno;
 
 /* portul de conectare la server*/
 int port;
-unsigned char *K3 = (unsigned char *)"00112233445566778899AABBCCDDEEFF"; //cheia pe care o are nodul B
+unsigned char *K3 = (unsigned char *)"0011223344556677"; //cheia pe care o are nodul B
 void handleErrors(void);
 int decriptare_chei(unsigned char *ciphertext, int ciphertext_len, unsigned char *key,
                     unsigned char *plaintext);
